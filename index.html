@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark"><meta name="theme-color" content="#05060F"><title>The Gridlock</title>
+<link rel="canonical" href="https://hamdij0maa.github.io/gridlock-legal/">
+<link rel="alternate" hreflang="en" href="https://hamdij0maa.github.io/gridlock-legal/en/index.html"><link rel="alternate" hreflang="fr" href="https://hamdij0maa.github.io/gridlock-legal/fr/index.html"><link rel="alternate" hreflang="x-default" href="https://hamdij0maa.github.io/gridlock-legal/">
+<link rel="icon" href="icon.png"><link rel="stylesheet" href="style.css">
+<script>
+(function(){
+  var have=['en', 'fr'];
+  var asked=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||"en"]);
+  var lang="en";
+  for(var j=0;j<asked.length;j++){var b=String(asked[j]||"").toLowerCase().split("-")[0];if(have.indexOf(b)>=0){lang=b;break;}}
+  var doc=(location.hash||"").replace("#","");
+  var docs=['support', 'privacy', 'legal-notice'];
+  location.replace(lang+"/"+(docs.indexOf(doc)>=0?doc:"support")+".html");
+})();
+</script></head>
+<body><main><h1><span class="brand"><img src="icon.png" alt="">The Gridlock</span></h1><ul class="langs"><li><a href="en/support.html" lang="en" hreflang="en">English</a></li><li><a href="fr/support.html" lang="fr" hreflang="fr">Français</a></li></ul></main></body></html>
